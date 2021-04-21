@@ -110,3 +110,12 @@ a {
 .btn-primary:focus {
   background: #545b69;
 }
+
+.open-source {
+  font-family: monospace;
+  padding: 5px 0;
+  margin: 0;
+}
+.my-name {
+  color: #f48b29;
+}
