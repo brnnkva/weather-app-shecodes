@@ -5,7 +5,7 @@
 h1 {
   margin: 20px 40px 40px 20px;
   line-height: 1;
-  font-size: 16px;
+  font-size: 18px;
 }
 .current-date {
   margin: 20px 40px 40px 20px;
@@ -36,18 +36,21 @@ a {
 
 .main-forecast {
   max-width: 230px;
-  padding-left: 0;
+  padding-right: 200px;
+  padding-left: 20px;
   text-align: center;
 }
 
 .temperature {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
+  padding-left: 35px;
 }
 .unites {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  top: -16px;
+  top: -20px;
+  right: -75px;
 }
 
 .weather-details {
@@ -66,7 +69,6 @@ a {
   color: #f48b29;
   font-size: 90px;
   margin-bottom: 25px;
-  padding: 0;
 }
 
 .fa-sun {
