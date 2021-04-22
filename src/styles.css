@@ -1,40 +1,43 @@
-.body {
-  background: #bbbbbb;
+body {
+  background: #eeebeb;
 }
 
 h1 {
-  margin: 20px 40px 40px 20px;
-  line-height: 1;
   font-size: 18px;
-}
-.current-date {
-  margin: 20px 40px 40px 20px;
   line-height: 1.5;
+  margin-bottom: 65px;
+  padding-left: 25px;
 }
 
 ul {
   list-style: none;
 }
+
 a {
-  text-decoration: none;
   color: #272e3d;
+  text-decoration: none;
+}
+
+.current-date {
+  line-height: 1.5;
+  margin: 20px 25px;
 }
 
 .container {
   background-color: rgba(241, 212, 125, 0.4);
-  opacity: 0.9;
   font-family: "Major Mono Display", monospace;
   font-size: 10px;
   line-height: 1;
   margin: 60px auto;
   max-width: 650px;
+  opacity: 0.9;
 }
 
 .main-row {
   padding: 20px auto;
 }
 
-.main-forecast {
+.current-forecast {
   max-width: 230px;
   padding-right: 200px;
   padding-left: 20px;
@@ -47,22 +50,22 @@ a {
   padding-left: 35px;
 }
 .unites {
-  position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  top: -20px;
+  position: relative;
   right: -75px;
+  top: -20px;
 }
 
 .weather-details {
+  font-size: 10px;
   line-height: 1.5;
   margin-top: 90px;
   padding: 20px;
-  font-size: 10px;
 }
 
 .forecast {
-  margin-top: 5px;
   font-size: 10px;
+  margin-top: 5px;
 }
 
 .fa-sun.main-icon {
@@ -79,7 +82,7 @@ a {
   padding: 13px;
 }
 
-.col-2 {
+.forecast .col-2 {
   margin: 10px;
   padding: 15px;
   text-align: center;
@@ -91,9 +94,6 @@ a {
   padding-right: 0;
 }
 
-.col-3 {
-  padding: 0;
-}
 .findCurrent-button {
   margin-left: 5px;
   margin-right: 0;
@@ -113,8 +113,8 @@ a {
 
 .open-source {
   font-family: monospace;
-  padding: 5px 0;
   margin: 0;
+  padding: 5px 0;
 }
 .my-name {
   color: #f48b29;
